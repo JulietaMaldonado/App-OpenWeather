@@ -1,0 +1,80 @@
+/*COMPONENTE NAV*/
+.nav{
+    background-image: url(https://s1.eestatic.com/2020/06/03/curiosidades/curiosidades_494961313_153077108_1706x960.jpg);
+height: fit-content;
+margin: none;
+padding-top: 20px;
+width:100%;
+}
+.header{
+    font-size: 35px;
+    color: orangered;
+    text-align: center;
+}
+
+/*COMPONENTE SEARCHBAR*/
+.searchBar{
+    background-color: orange;
+    margin: 0;
+    padding: 15px;
+}
+.inputSearch{
+    background-color: whitesmoke;
+    border-radius: 8px;
+    border: 5;
+    border-color: orangered;
+    height: 30px;
+    width: 250px;
+    margin-right: 25px;
+}
+.buttonSearch{
+    background-color: orangered;
+    color: whitesmoke;
+}
+
+/*COMPONENTE CARD*/
+.card{
+    background-color: khaki;
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    flex-direction: column;
+    padding: 30px;
+    margin: 20px;
+}
+.buttonX{
+    background-color: red;
+    color: whitesmoke;
+    font-size: 11px;
+    border: none;
+    border-radius: 100px;
+    width: fit-content;
+    padding: 10px;
+}
+.imgClima{
+    width: 70%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+
+/*COMPONENTE CONTAINCARD*/
+.containCard{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+/*COMPONENTE FOOTER*/
+.footerText{
+    width: 100%;
+    background-color: orange;
+    height: 30px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    margin: 0;
+}
