@@ -4,7 +4,6 @@
 height: fit-content;
 margin: none;
 padding-top: 20px;
-width:100%;
 }
 .header{
     font-size: 35px;
@@ -63,13 +62,11 @@ width:100%;
 .containCard{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
     justify-content: center;
 }
 
 /*COMPONENTE FOOTER*/
 .footerText{
-    width: 100%;
     background-color: orange;
     height: 30px;
     text-align: center;
